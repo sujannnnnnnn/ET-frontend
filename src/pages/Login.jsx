@@ -64,14 +64,6 @@ export default function Login() {
         >
           Login
         </motion.button>
-
-        {/* Extra Links */}
-        <div className="mt-4 text-sm text-center text-gray-500">
-          Don’t have an account?{" "}
-          <a href="/signup" className="text-indigo-600 hover:underline">
-            Sign Up
-          </a>
-        </div>
       </motion.form>
     </div>
   );
