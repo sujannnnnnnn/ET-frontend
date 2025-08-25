@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://et-6.onrender.com", // FastAPI backend
+  baseURL: "https://et-7.onrender.com", // FastAPI backend
 });
 
 // Auth
@@ -35,3 +35,4 @@ export const deleteExpense = (id, token) =>
   });
 
 export default api;
+
